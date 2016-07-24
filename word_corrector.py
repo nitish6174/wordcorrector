@@ -1,13 +1,14 @@
 import json
 import math
 import numpy as np
+from version import _input
 from stringprocessing import *
 
 
 def main():
 
 	print("Enter word to correct :")
-	input_word = raw_input()
+	input_word = _input()
 
 	result_len = 5
 
