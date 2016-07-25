@@ -39,12 +39,6 @@ def make_points(source_file):
 			points.append(obj)
 	print("Points structure made")
 
-	# with open('model/points.json', 'w') as f:
-	# 	json.dump(points,f)
-	# with open('model/points_indented.json', 'w') as f:
-	# 	json.dump(points,f,indent=2)
-	# print("Points saved to file")
-
 	return points
 
 
